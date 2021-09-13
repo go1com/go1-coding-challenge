@@ -24,7 +24,7 @@ Good coding challenges:
 
 Interviews are short, 60 minutes disappears so quickly. If you, the creator of the question, can't solve the challenge in less than 10 minutes it's too difficult.
 
-Aim for 2-step coding problems. These tend to be the sweet spot between too hard and too easy. The way to think of 2-step questions is that there is an intermediate step required between input and the result. For instance, in [Learners and Courses](./challenges/learners-and-courses.md), the first step is to count the number of learners for a course, the second step is to limit the result to only courses with a count of 1. 
+Aim for 2-step coding problems. These tend to be the sweet spot between too hard and too easy. The way to think of 2-step questions is that there is an intermediate step required between input and the result. For instance, in [Learners and Courses](./learners-and-courses/learners-and-courses.md), the first step is to count the number of learners for a course, the second step is to limit the result to only courses with a count of 1. 
 
 If there is only a single way to solve a challenge, candidates have less options to move the challenge forward. Try to create challenges that are open to multiple solutions. The easiest way to ensure this is to have fairly simple output states. Very specific output expectations create more constraints, and less solution options.
 
