@@ -29,3 +29,13 @@
     ["Course_002","Course_003","Course_001","Course_004"]
 ]
 ```
+
+
+4
+=
+```json
+[
+    ["Course_001","Course_002","Course_001","Course_003"],
+    ["Course_002","Course_001","Course_001","Course_004"]
+]
+```
