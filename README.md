@@ -6,6 +6,7 @@ Respository of code challenges for Go1 technical interviews.
 
 - [Learners and Courses](./learners-and-courses/learners-and-courses.md) [[data](./learners-and-courses/learners-and-courses.data.md)]
 - [Quiz Results](./quiz-results/quiz-results.md) [[data](./quiz-results/quiz-results.data.md)]
+- [Watched Courses](./watched-courses/watched-courses.md) [[data](./watched-courses/watched-courses.data.md)]
 
 ## Helpful Snippets
 
