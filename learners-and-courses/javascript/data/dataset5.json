@@ -1,0 +1,22 @@
+{
+  "Learner-0001": [
+    "Course-0001",
+    "Course-0002",
+    "Course-0003"
+  ],
+  "Learner-0002": [
+    "Course-0002",
+    "Course-0003",
+    "Course-0004"
+  ],
+  "Learner-0003": [
+    "Course-0004",
+    "Course-0005",
+    "Course-0006"
+  ],
+  "Learner-0004": [
+    "Course-0005",
+    "Course-0006",
+    "Course-0007"
+  ]
+}
