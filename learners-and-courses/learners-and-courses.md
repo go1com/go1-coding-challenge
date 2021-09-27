@@ -9,7 +9,23 @@ We'd like to know about courses that have only been completed by a single learne
 
 Return a list of CourseId's that have only been completed by 1 Learner.
 
-For example:
+Example input:
 ```json
-["Course-0001", "Course-0009"]
+{
+  "Learner-0001": [
+    "Course-0001",
+    "Course-0002",
+    "Course-0003"
+  ],
+  "Learner-0002": [
+    "Course-0002",
+    "Course-0003",
+    "Course-0004"
+  ]
+}
+```
+
+Example output:
+```json
+[ "Course-0001", "Course-0004" ]
 ```

@@ -9,7 +9,22 @@ We're interesting in finding out about what's the easiest question in the quiz. 
 
 Return the index of the question most learners get correct.
 
-For example:
+Example input:
 ```json
-"The easiest question is index 3"
+// Correct Answers 
+["A", "B", "C"]
+
+// Learner Responses 
+[
+    ["A", "B", "B"],
+    ["C", "B", "C"],
+    ["A", "B", "C"],
+    ["B", "B", "A"],
+    ["A", "B", "C"]
+]
+```
+
+Example output:
+```json
+"The easiest question is index 1"
 ```

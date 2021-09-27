@@ -9,13 +9,17 @@ We're interested in knowing what was the maximum number of concurrent streams wi
 
 Return the maximum number of concurrent streams.
 
-For example:
+Example input:
 ```json
 [
     ["User_001", 0, 1000],
     ["User_002", 500, 2000],
     ["User_003", 2500, 3000],
-    ["User_001", 1100, 1800],
-    ...
+    ["User_004", 400, 1400]
 ]
+```
+
+Example output:
+```json
+"The maximum number of concurrent streams is 3."
 ```
