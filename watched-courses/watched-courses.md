@@ -9,12 +9,18 @@ We're interested in knowing for each course, what course do most learners comple
 
 Return the most common next course for each course in the session data.
 
-For example:
+Example input:
+```json
+[
+    ["Course_001", "Course_002", "Course_003", "Course_004"]
+]
+```
+
+Example output:
 ```json
 {
     "Course_001" : "Course_002",
     "Course_002" : "Course_003",
-    "Course_003" : "Course_004",
-    ...
+    "Course_003" : "Course_004"
 }
 ```
