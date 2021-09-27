@@ -26,5 +26,5 @@ Example input:
 
 Example output:
 ```json
-"The easiest question is index 3"
+"The easiest question is index 1"
 ```
