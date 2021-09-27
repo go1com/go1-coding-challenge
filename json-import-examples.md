@@ -1,22 +1,26 @@
 Typescript
 ==
 ```typescript
-const myjson = `{
+const myjson = `
+{
     your 
     json 
     here
-}`;
+}
+`;
 const data = JSON.parse(myjson);
 ```
 
 Javascript
 ==
 ```javascript
-var myjson = `{
+var myjson = `
+{
     your 
     json 
     here
-}`;
+}
+`;
 var data = JSON.parse(myjson);
 ```
 
@@ -24,11 +28,13 @@ PHP
 ==
 ```php
 <?php
-$myjson = "{
+$myjson = "
+{
     your 
     json 
     here
-}";
+}
+";
 $data = json_decode($myjson);
 ?>
 ```
@@ -38,12 +44,30 @@ GoLang
 import (
     "encoding/json"
 )
-var myjson = `{
+var myjson = `
+{
     your 
     json 
     here
-}`
+}
+`
 var data map[string]interface{}
 json.Unmarshal([]byte(data), &data)
+```
+
+Python
+==
+```python
+import json
+
+my_json = """
+{
+    your 
+    json 
+    here
+}
+"""
+
+data = json.loads(my_json)
 ```
 
