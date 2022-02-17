@@ -5,7 +5,7 @@ Go1 supports learners completing quizzes on subjects they are learning. For this
 
 For this challenge, we'll be looking at the quality of a given quiz. The dataset contains a list of correct answers and a list of anonymised learner answers. 
 
-We're interesting in finding out about what's the easiest question in the quiz. The easiest question is question most learners get correct.
+We're interested in finding out about what's the easiest question in the quiz. The easiest question is question most learners get correct.
 
 Return the index of the question most learners get correct.
 
