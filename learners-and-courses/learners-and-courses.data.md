@@ -93,3 +93,24 @@
 }
 ```
 
+6
+=
+```json
+{
+  "Learner-0001": [
+    "Course-0001",
+    "Course-0002",
+    "Course-0003"
+  ],
+  "Learner-0002": [
+    "Course-0002",
+    "Course-0003"
+  ],
+  "Learner-0003": [
+    "Course-0002",
+    "Course-0003",
+    "Course-0004"
+  ]
+}
+```
+
