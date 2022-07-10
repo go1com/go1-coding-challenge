@@ -1,0 +1,7 @@
+{
+  "name": "Go1 Coding Challenge Learner and Courses",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jasmine": "^3.9.0"
+  }
+}
