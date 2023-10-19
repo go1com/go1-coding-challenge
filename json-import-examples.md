@@ -1,73 +1,71 @@
-Typescript
-==
+# Typescript
+
 ```typescript
 const myjson = `
 {
-    your 
-    json 
-    here
+    "glossary" : "your JSON here"
 }
 `;
 const data = JSON.parse(myjson);
 ```
 
-Javascript
-==
+# Javascript
+
 ```javascript
 var myjson = `
 {
-    your 
-    json 
-    here
+    "glossary" : "your JSON here"
 }
 `;
 var data = JSON.parse(myjson);
 ```
 
-PHP
-==
+# PHP
+
 ```php
 <?php
-$myjson = "
+$myjson = <<<EOD
 {
-    your 
-    json 
-    here
+    "glossary" : "your JSON here"
 }
-";
+EOD;
 $data = json_decode($myjson);
 ?>
 ```
-GoLang
-==
+
+# GoLang
+
 ```golang
+package main
+
 import (
-    "encoding/json"
+	"encoding/json"
+	"fmt"
 )
-var myjson = `
-{
-    your 
-    json 
-    here
+
+func main() {
+
+	var myjson = `
+	{
+		"glossary": "your JSON here"
+	}
+	`
+	var data map[string]interface{}
+	json.Unmarshal([]byte(myjson), &data)
+
 }
-`
-var data map[string]interface{}
-json.Unmarshal([]byte(data), &data)
 ```
 
-Python
-==
+# Python
+
 ```python
 import json
 
 my_json = """
 {
-    your 
-    json 
-    here
+    "glossary" : "your JSON here"
 }
 """
 
 data = json.loads(my_json)
 ```
-
