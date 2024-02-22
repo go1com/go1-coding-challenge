@@ -1,10 +1,10 @@
-1
-=
+# 1
+
 ```json
-// Correct Answers 
+// Correct Answers
 ["A", "B", "C"]
 
-// Learner Responses 
+// Learner Responses
 [
     ["A", "B", "B"],
     ["C", "B", "C"],
@@ -14,29 +14,29 @@
 ]
 ```
 
-2
-=
+# 2
+
 ```json
-// Correct Answers 
+// Correct Answers
 ["A", "B", "A", "C", "D"]
 
-// Learner Responses 
+// Learner Responses
 [
     ["A", "B", "B", "C", "D"],
-    ["C", "B", "A", "D", "B"],
-    ["A", "B", "C", "D", "C"],
-    ["B", "B", "A", "D", "A"],
+    ["C", "B", "A", "D", "D"],
+    ["A", "D", "C", "D", "D"],
+    ["B", "B", "A", "D", "D"],
     ["A", "B", "D", "D", "D"]
 ]
 ```
 
-3
-=
-```json
-// Correct Answers 
-["A", "B", "A", "C", "D"]
+# 3
 
-// Learner Responses 
+```json
+// Correct Answers
+["A", "B", "A", "D", "C"]
+
+// Learner Responses
 [
     ["A", "B", "B", "C", "D"],
     ["C", "B", "A", "D", "B"],
@@ -45,7 +45,7 @@
     ["A", "B", "D", "B", "C"],
     ["C", "A", "A", "D", "A"],
     ["A", "B", "C", "D", "C"],
-    ["B", "D", "A", "A", "A"],
+    ["B", "D", "A", "D", "A"],
     ["A", "B", "D", "D", "B"],
     ["C", "B", "A", "D", "B"],
     ["A", "C", "C", "D", "A"],
