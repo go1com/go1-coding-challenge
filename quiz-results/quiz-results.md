@@ -1,9 +1,9 @@
 Quiz Results
 ============
 
-Go1 supports learners completing quizzes on subjects they are learning. For this challenge, we'll focus on multiple-choice format quizzes (each answer to the quiz is one of A, B, C or D). 
+Go1 supports learners completing quizzes on subjects they are learning. For this challenge, we'll focus on quizzes that only have multiple-choice questions, but each question only has one correct answer, and learner can only select single answer (each answer to the question is one of A, B, C or D).
 
-For this challenge, we'll be looking at the quality of a given quiz. The dataset contains a list of correct answers and a list of anonymised learner answers. 
+For this challenge, we'll be looking at the quality of a given quiz. The dataset contains a list of correct answers (for all questions in quiz) and a list of anonymised learner answers.
 
 We're interested in finding out about what's the easiest question in the quiz. The easiest question is question most learners get correct.
 
